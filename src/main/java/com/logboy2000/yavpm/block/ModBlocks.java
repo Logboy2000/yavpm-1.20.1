@@ -14,18 +14,17 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
 
-    public static final Block TEMPLATE_BLOCK = registerBlock("template_block",
-            new Block(FabricBlockSettings.copyOf(Blocks.MAGENTA_GLAZED_TERRACOTTA)));
+    public static final Block BOOST_BLOCK = registerBlock("boost_block",
+            new BoostBlock(FabricBlockSettings.copyOf(Blocks.MAGENTA_GLAZED_TERRACOTTA)));
 
-    public static final BoostBlock BOOST_BLOCK =
-            new BoostBlock();
+    //public static final Block BOOST_BLOCK = registerBlock("boost_block", new Block(FabricBlockSettings.copyOf(Blocks.MAGENTA_GLAZED_TERRACOTTA)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
-        return Registry.register(Registries.BLOCK, new Identifier(YetAnotherVanillaPlusMod.MOD_ID, name),block);
+        return Registry.register(Registries.BLOCK, new Identifier(YetAnotherVanillaPlusMod.MOD_ID, name), block);
     }
 
-    private static Item registerBlockItem(String name, Block block){
+    private static Item registerBlockItem(String name, Block block) {
         return Registry.register(Registries.ITEM, new Identifier(YetAnotherVanillaPlusMod.MOD_ID, name),
                 new BlockItem(block, new FabricItemSettings()));
     }

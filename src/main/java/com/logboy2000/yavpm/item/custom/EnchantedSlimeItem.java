@@ -1,6 +1,5 @@
 package com.logboy2000.yavpm.item.custom;
 
-import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -8,10 +7,10 @@ import net.minecraft.util.Hand;
 import net.minecraft.util.TypedActionResult;
 import net.minecraft.world.World;
 
-public class EnchantedSlime extends Item {
+public class EnchantedSlimeItem extends Item {
 
 
-    public EnchantedSlime(Settings settings) {
+    public EnchantedSlimeItem(Settings settings) {
         super(settings);
     }
 
@@ -23,7 +22,7 @@ public class EnchantedSlime extends Item {
                 user.getStackInHand(hand).decrement(1);
             }
         }
-        return null;
+        return super.use(world, user, hand);
     }
 
     public boolean hasGlint(ItemStack stack) {
