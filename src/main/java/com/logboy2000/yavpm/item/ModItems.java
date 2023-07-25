@@ -1,7 +1,7 @@
 package com.logboy2000.yavpm.item;
 
 import com.logboy2000.yavpm.YetAnotherVanillaPlusMod;
-import com.logboy2000.yavpm.item.custom.EnchantedSlime;
+import com.logboy2000.yavpm.item.custom.EnchantedSlimeItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -9,10 +9,11 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
-    public static final Item TEMPLATE = registerItem("template", new Item(new FabricItemSettings()));
 
 
-    public static final EnchantedSlime ENCHANTED_SLIME = new EnchantedSlime(new FabricItemSettings());
+
+    public static final Item ENCHANTED_SLIME = registerItem("enchanted_slime",
+            new EnchantedSlimeItem(new FabricItemSettings()));
 
 
 

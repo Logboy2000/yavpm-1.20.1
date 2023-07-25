@@ -19,7 +19,8 @@ public class ModItemGroups {
 
 
                         entries.add(ModItems.ENCHANTED_SLIME);
-                        entries.add(ModItems.TEMPLATE);
+                        //entries.add(ModItems.EXPERIENCED_FIREWORK);
+
                         entries.add(ModBlocks.BOOST_BLOCK);
 
 
