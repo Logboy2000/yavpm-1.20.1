@@ -21,6 +21,7 @@ public class BoostBlock extends Block {
             if (entity instanceof LivingEntity){
                 LivingEntity livingEntity = (LivingEntity) entity;
                 livingEntity.addStatusEffect(new StatusEffectInstance(StatusEffects.JUMP_BOOST, 20, 3));
+                entity.handleFallDamage(entity.fallDistance, 0.2f, world.getDamageSources().fall());
             }
         }
     }

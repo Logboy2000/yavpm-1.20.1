@@ -9,7 +9,9 @@
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/FabricMC/fabric-example-mod",
+		"egg textures": "https://curseforge.com/minecraft/mc-mods/simple-fried-egg-forge"
+
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/yavpm/icon.png",
@@ -19,7 +21,7 @@
 			"com.logboy2000.yavpm.YetAnotherVanillaPlusMod"
 		],
 		"client": [
-			"com.logboy2000.yavpm.ExampleModClient"
+			"com.logboy2000.yavpm.YetAnotherVanillaPlusModClient"
 		]
 	},
 	"mixins": [

@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "yavpm:fried_egg"
+    },
+    "result": "yavpm:scrambled_egg",
+    "count": 2
+}

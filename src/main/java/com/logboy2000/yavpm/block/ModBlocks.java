@@ -13,11 +13,12 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModBlocks {
+    //public static final Block BOOST_BLOCK = registerBlock("boost_block", new Block(FabricBlockSettings.copyOf(Blocks.MAGENTA_GLAZED_TERRACOTTA)));
 
     public static final Block BOOST_BLOCK = registerBlock("boost_block",
             new BoostBlock(FabricBlockSettings.copyOf(Blocks.MAGENTA_GLAZED_TERRACOTTA)));
 
-    //public static final Block BOOST_BLOCK = registerBlock("boost_block", new Block(FabricBlockSettings.copyOf(Blocks.MAGENTA_GLAZED_TERRACOTTA)));
+
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

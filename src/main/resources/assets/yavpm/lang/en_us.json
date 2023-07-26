@@ -1,5 +1,16 @@
 {
   "item.yavpm.enchanted_slime": "Enchanted Slimeball",
-  "itemgroup.vp": "Vanilla Plus",
-  "block.yavpm.boost_block": "Boost Block"
+  "item.yavpm.cheese": "Cheese",
+  "item.yavpm.fried_egg": "Fried Egg",
+  "item.yavpm.fried_egg_sandwich": "Fried Egg Sandwich",
+  "item.yavpm.scrambled_egg": "Scrambled Egg",
+  "item.yavpm.sliced_bread": "Sliced Bread",
+
+
+  "block.yavpm.boost_block": "Boost Block",
+
+
+
+
+  "itemgroup.vp": "Vanilla Plus"
 }

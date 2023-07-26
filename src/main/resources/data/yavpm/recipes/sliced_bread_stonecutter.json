@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:bread"
+    },
+    "result": "yavpm:sliced_bread",
+    "count": 8
+}
