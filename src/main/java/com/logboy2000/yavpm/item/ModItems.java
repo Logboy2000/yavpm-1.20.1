@@ -15,11 +15,14 @@ public class ModItems {
     public static final Item ENCHANTED_SLIME = registerItem("enchanted_slime",
             new EnchantedSlimeItem(new FabricItemSettings()));
 
+<<<<<<< HEAD
     public static final Item FRIED_EGG = registerItem("fried_egg", new Item(new FabricItemSettings().food(ModFoodComponents.FRIED_EGG)));
     public static final Item FRIED_EGG_SANDWICH = registerItem("fried_egg_sandwich", new Item(new FabricItemSettings().food(ModFoodComponents.FRIED_EGG_SANDWICH)));
     public static final Item SLICED_BREAD = registerItem("sliced_bread", new Item(new FabricItemSettings().food(ModFoodComponents.SLICED_BREAD)));
     public static final Item SCRAMBLED_EGG = registerItem("scrambled_egg", new Item(new FabricItemSettings().food(ModFoodComponents.SCRAMBLED_EGG)));
 
+=======
+>>>>>>> origin/main
 
 
     private static Item registerItem(String name, Item item) {

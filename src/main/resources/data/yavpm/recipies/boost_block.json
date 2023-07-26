@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "yavpm:enchanted_slime"
+    },
+    {
+      "item": "minecraft:magenta_glazed_terracotta"
+    }
+  ],
+  "result": {
+    "item": "yavpm:boost_block",
+    "count": 1
+  }
+}
