@@ -8,7 +8,7 @@ import net.minecraft.util.Identifier;
 
 public class ModSounds {
     public static SoundEvent VINE_BOOM = registerSoundEvent("vine_boom");
-    public static SoundEvent CAREFREE_DISC = registerSoundEvent("carefree_disc");
+    public static SoundEvent CAREFREE_MUSIC_DISC = registerSoundEvent("carefree_music_disc");
 
     private static SoundEvent registerSoundEvent(String name){
         Identifier id = new Identifier(YetAnotherVanillaPlusMod.MOD_ID, name);

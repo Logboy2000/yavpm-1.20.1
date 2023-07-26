@@ -19,8 +19,8 @@ public class ModItems {
             new EnchantedSlimeItem(new FabricItemSettings()));
     public static final Item MOAI = registerItem("moai",
             new MoaiItem(new FabricItemSettings()));
-    public static final Item CAREFREE_DISC = registerItem("carefree_disc",
-            new MusicDiscItem(6, ModSounds.CAREFREE_DISC, new FabricItemSettings().maxCount(1), 305));
+    public static final Item CAREFREE_MUSIC_DISC = registerItem("carefree_music_disc",
+            new MusicDiscItem(6, ModSounds.CAREFREE_MUSIC_DISC, new FabricItemSettings().maxCount(1), 305));
 
     public static final Item FRIED_EGG = registerItem("fried_egg", new Item(new FabricItemSettings().food(ModFoodComponents.FRIED_EGG)));
     public static final Item FRIED_EGG_SANDWICH = registerItem("fried_egg_sandwich", new Item(new FabricItemSettings().food(ModFoodComponents.FRIED_EGG_SANDWICH)));

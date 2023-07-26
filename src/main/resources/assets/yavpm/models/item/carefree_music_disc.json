@@ -1,6 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "yavpm:item/carefree_disc"
+        "layer0": "yavpm:item/carefree_music_disc"
     }
 }

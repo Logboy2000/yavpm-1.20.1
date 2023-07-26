@@ -24,7 +24,7 @@ public class ModItemGroups {
                         entries.add(ModItems.SLICED_BREAD);
                         entries.add(ModItems.SCRAMBLED_EGG);
                         entries.add(ModItems.MOAI);
-                        entries.add(ModItems.CAREFREE_DISC);
+                        entries.add(ModItems.CAREFREE_MUSIC_DISC);
 
                         entries.add(ModBlocks.BOOST_BLOCK);
 
