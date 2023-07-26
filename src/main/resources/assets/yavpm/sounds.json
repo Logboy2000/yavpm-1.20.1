@@ -1,0 +1,17 @@
+{
+  "carefree_disc": {
+    "sounds": [
+      {
+        "name": "yavpm:carefree_disc",
+        "stream": true
+      }
+    ]
+
+  },
+  "vine_boom": {
+    "subtitle": "sounds.yavpm.vine_boom",
+    "sounds": [
+      "yavpm:vine_boom"
+    ]
+  }
+}

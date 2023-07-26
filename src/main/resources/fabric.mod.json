@@ -1,19 +1,19 @@
 {
 	"schemaVersion": 1,
 	"id": "yavpm",
-	"version": "${version}",
-	"name": "Template Mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"version": "`1.1.0`",
+	"name": "Yet Another Vanilla Plus Mod",
+	"description": "Some random stuff i made as a test for mod development. \n More cheese:\nCheese, that remarkable and delectable dairy delight, has woven its way into the culinary tapestry of humanity since time immemorial, offering an array of flavors, textures, and aromas that leave taste buds dancing in euphoria. From the crumbly enchantment of aged cheddar to the creamy embrace of brie, the world of cheese is an intricate and enticing labyrinth waiting to be explored. Its origins shrouded in the mists of antiquity, cheese is believed to have emerged accidentally, a serendipitous byproduct of ancient nomads transporting milk in vessels crafted from the stomachs of animals, curdling the milk and giving birth to a new culinary wonder.\n\nThe diversity of cheese is nothing short of breathtaking; each corner of the globe boasts its distinctive creations, influenced by the land, climate, and traditions of the region. In France, the land of artisanal cheese-making, the velvety camembert whispers of the lush meadows of Normandy, while Roquefort reveals the secret caverns of southern France where blue veins of mold infuse its ivory flesh. Meanwhile, Italy's Parmigiano-Reggiano reigns supreme, its nutty and granular profile tracing back to ancient Roman times. In the Swiss Alps, the rich and buttery Gruyère is a testament to the dedication of mountain-dwelling cheesemakers.\n\nVenture further east, and you'll discover the pungent allure of India's paneer, a fresh cheese that happily soaks up the flavors of vibrant spices, while Japan's silky tofu showcases the delicate essence of soy. In the vast expanse of the United States, artisanal creameries craft a kaleidoscope of cheese varieties, from the bold and spicy pepper jack to the velvety smoothness of Monterey Jack. And let us not forget the allure of goat and sheep's milk cheeses, offering a tangy and distinct alternative to cow's milk counterparts.\n\nThe art of cheese-making has been lovingly passed down through generations, with master cheesemakers holding the secrets to their craft close to heart. Patiently nurturing the curds, they transform milk into edible poetry, each cheese a tale of its own, entwined with the very essence of the land it hails from. The delicate aging process unlocks flavors, textures, and aromas, making each wheel a unique symphony that unfolds upon the palate.\n\nCheese has become more than just sustenance; it is an expression of culture, history, and tradition. Whether adorning a rustic baguette in a quaint Parisian café or gracing the platters of a luxurious banquet, cheese brings people together, forging bonds and evoking a shared appreciation for gastronomic delights. Its pairing with wines, fruits, and charcuterie elevates it to an art form, each pairing a delicate dance of flavors.\n\nIn a world where tastes constantly evolve, cheese remains a timeless indulgence, a testament to the exquisite union of craftsmanship and nature's bounty. To savor cheese is to embark on a journey of sensory pleasure, to discover the vastness of human ingenuity, and to witness the harmonious collaboration of human hands and the land's bounty. Cheese, in all its glorious diversity, is a story written on the tongues of millions, connecting us through shared experiences of delight and enchantment",
 	"authors": [
-		"Me!"
+		"Logboy2000"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod",
-		"egg textures": "https://curseforge.com/minecraft/mc-mods/simple-fried-egg-forge"
+		"homepage": "https://logboy2000.github.io/",
+		"sources": "https://github.com/Logboy2000/yavpm-1.20.1/",
+		"issues": "https://github.com/Logboy2000/yavpm-1.20.1/issues/"
 
 	},
-	"license": "CC0-1.0",
+	"license": "CC0",
 	"icon": "assets/yavpm/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -27,7 +27,7 @@
 	"mixins": [
 		"yavpm.mixins.json",
 		{
-			"config": "template-mod.client.mixins.json",
+			"config": "yavpm.client.mixins.json",
 			"environment": "client"
 		}
 	],
@@ -38,6 +38,6 @@
 		"fabric-api": "*"
 	},
 	"suggests": {
-		"another-mod": "*"
+		"another-mod": "https://curseforge.com/minecraft/mc-mods/simple-fried-egg-forge"
 	}
 }

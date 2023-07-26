@@ -5,9 +5,15 @@
   "item.yavpm.fried_egg_sandwich": "Fried Egg Sandwich",
   "item.yavpm.scrambled_egg": "Scrambled Egg",
   "item.yavpm.sliced_bread": "Sliced Bread",
+  "item.yavpm.moai": "Moai",
 
 
   "block.yavpm.boost_block": "Boost Block",
+
+  "sounds.yavpm.vine_boom": "VINE BOOM SOUND EFFECT",
+  "sounds.yavpm.carefree_disc": "KEVIN MACLEOD INTENSIFIES",
+  "sounds.yavpm.carefree_disc.desc": "Kevin MacLeod - Carefree",
+
 
 
 
